@@ -14,6 +14,7 @@ public class Main_1259 {
             int j=word.length-1;
             while (i<j) {
                 if (word[i] == word[j]){
+                    //s1.charAt(i) == s1.charAt(j)을 이용 해도 된다.
                     i++;
                     j--;
                 } else {
