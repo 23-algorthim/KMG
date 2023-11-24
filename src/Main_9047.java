@@ -24,7 +24,7 @@ public class Main_9047 {
                 int sub = input[3]*1000 + input[2] * 100 + input[1] * 10 + input[0];
                 //역전된 수
                 result = Math.abs(result-sub); //차이 이기 때문에 절댓값 처리
-                count++;
+                count++; //한번 반복 될 때마다 count++
             }
             System.out.println(count);
         }
